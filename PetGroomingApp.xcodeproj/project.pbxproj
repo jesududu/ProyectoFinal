@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		01CF37CF2E818D4F007BA4E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01CF37B72E818D4D007BA4E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CF37BE2E818D4D007BA4E5;
+			remoteInfo = PetGroomingApp;
+		};
+		01CF37D92E818D4F007BA4E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01CF37B72E818D4D007BA4E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CF37BE2E818D4D007BA4E5;
+			remoteInfo = PetGroomingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CF37BF2E818D4D007BA4E5 /* PetGroomingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetGroomingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CF37CE2E818D4F007BA4E5 /* PetGroomingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetGroomingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CF37D82E818D4F007BA4E5 /* PetGroomingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetGroomingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		01CF37C12E818D4D007BA4E5 /* PetGroomingApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PetGroomingApp;
+			sourceTree = "<group>";
+		};
+		01CF37D12E818D4F007BA4E5 /* PetGroomingAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PetGroomingAppTests;
+			sourceTree = "<group>";
+		};
+		01CF37DB2E818D4F007BA4E5 /* PetGroomingAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PetGroomingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01CF37BC2E818D4D007BA4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CF37CB2E818D4F007BA4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CF37D52E818D4F007BA4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CF37B62E818D4D007BA4E5 = {
+			isa = PBXGroup;
+			children = (
+				01CF37C12E818D4D007BA4E5 /* PetGroomingApp */,
+				01CF37D12E818D4F007BA4E5 /* PetGroomingAppTests */,
+				01CF37DB2E818D4F007BA4E5 /* PetGroomingAppUITests */,
+				01CF37C02E818D4D007BA4E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01CF37C02E818D4D007BA4E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01CF37BF2E818D4D007BA4E5 /* PetGroomingApp.app */,
+				01CF37CE2E818D4F007BA4E5 /* PetGroomingAppTests.xctest */,
+				01CF37D82E818D4F007BA4E5 /* PetGroomingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01CF37BE2E818D4D007BA4E5 /* PetGroomingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CF37E22E818D4F007BA4E5 /* Build configuration list for PBXNativeTarget "PetGroomingApp" */;
+			buildPhases = (
+				01CF37BB2E818D4D007BA4E5 /* Sources */,
+				01CF37BC2E818D4D007BA4E5 /* Frameworks */,
+				01CF37BD2E818D4D007BA4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				01CF37C12E818D4D007BA4E5 /* PetGroomingApp */,
+			);
+			name = PetGroomingApp;
+			packageProductDependencies = (
+			);
+			productName = PetGroomingApp;
+			productReference = 01CF37BF2E818D4D007BA4E5 /* PetGroomingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01CF37CD2E818D4F007BA4E5 /* PetGroomingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CF37E52E818D4F007BA4E5 /* Build configuration list for PBXNativeTarget "PetGroomingAppTests" */;
+			buildPhases = (
+				01CF37CA2E818D4F007BA4E5 /* Sources */,
+				01CF37CB2E818D4F007BA4E5 /* Frameworks */,
+				01CF37CC2E818D4F007BA4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01CF37D02E818D4F007BA4E5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				01CF37D12E818D4F007BA4E5 /* PetGroomingAppTests */,
+			);
+			name = PetGroomingAppTests;
+			packageProductDependencies = (
+			);
+			productName = PetGroomingAppTests;
+			productReference = 01CF37CE2E818D4F007BA4E5 /* PetGroomingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01CF37D72E818D4F007BA4E5 /* PetGroomingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CF37E82E818D4F007BA4E5 /* Build configuration list for PBXNativeTarget "PetGroomingAppUITests" */;
+			buildPhases = (
+				01CF37D42E818D4F007BA4E5 /* Sources */,
+				01CF37D52E818D4F007BA4E5 /* Frameworks */,
+				01CF37D62E818D4F007BA4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01CF37DA2E818D4F007BA4E5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				01CF37DB2E818D4F007BA4E5 /* PetGroomingAppUITests */,
+			);
+			name = PetGroomingAppUITests;
+			packageProductDependencies = (
+			);
+			productName = PetGroomingAppUITests;
+			productReference = 01CF37D82E818D4F007BA4E5 /* PetGroomingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01CF37B72E818D4D007BA4E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					01CF37BE2E818D4D007BA4E5 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					01CF37CD2E818D4F007BA4E5 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 01CF37BE2E818D4D007BA4E5;
+					};
+					01CF37D72E818D4F007BA4E5 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 01CF37BE2E818D4D007BA4E5;
+					};
+				};
+			};
+			buildConfigurationList = 01CF37BA2E818D4D007BA4E5 /* Build configuration list for PBXProject "PetGroomingApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01CF37B62E818D4D007BA4E5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 01CF37C02E818D4D007BA4E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01CF37BE2E818D4D007BA4E5 /* PetGroomingApp */,
+				01CF37CD2E818D4F007BA4E5 /* PetGroomingAppTests */,
+				01CF37D72E818D4F007BA4E5 /* PetGroomingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01CF37BD2E818D4D007BA4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CF37CC2E818D4F007BA4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CF37D62E818D4F007BA4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01CF37BB2E818D4D007BA4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CF37CA2E818D4F007BA4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CF37D42E818D4F007BA4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01CF37D02E818D4F007BA4E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01CF37BE2E818D4D007BA4E5 /* PetGroomingApp */;
+			targetProxy = 01CF37CF2E818D4F007BA4E5 /* PBXContainerItemProxy */;
+		};
+		01CF37DA2E818D4F007BA4E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01CF37BE2E818D4D007BA4E5 /* PetGroomingApp */;
+			targetProxy = 01CF37D92E818D4F007BA4E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01CF37E02E818D4F007BA4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8D8PNK52MY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01CF37E12E818D4F007BA4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8D8PNK52MY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01CF37E32E818D4F007BA4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D8PNK52MY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesus.PetGroomingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01CF37E42E818D4F007BA4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D8PNK52MY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesus.PetGroomingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01CF37E62E818D4F007BA4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D8PNK52MY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesus.PetGroomingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetGroomingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetGroomingApp";
+			};
+			name = Debug;
+		};
+		01CF37E72E818D4F007BA4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D8PNK52MY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesus.PetGroomingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetGroomingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetGroomingApp";
+			};
+			name = Release;
+		};
+		01CF37E92E818D4F007BA4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D8PNK52MY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesus.PetGroomingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetGroomingApp;
+			};
+			name = Debug;
+		};
+		01CF37EA2E818D4F007BA4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D8PNK52MY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesus.PetGroomingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetGroomingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01CF37BA2E818D4D007BA4E5 /* Build configuration list for PBXProject "PetGroomingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CF37E02E818D4F007BA4E5 /* Debug */,
+				01CF37E12E818D4F007BA4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01CF37E22E818D4F007BA4E5 /* Build configuration list for PBXNativeTarget "PetGroomingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CF37E32E818D4F007BA4E5 /* Debug */,
+				01CF37E42E818D4F007BA4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01CF37E52E818D4F007BA4E5 /* Build configuration list for PBXNativeTarget "PetGroomingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CF37E62E818D4F007BA4E5 /* Debug */,
+				01CF37E72E818D4F007BA4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01CF37E82E818D4F007BA4E5 /* Build configuration list for PBXNativeTarget "PetGroomingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CF37E92E818D4F007BA4E5 /* Debug */,
+				01CF37EA2E818D4F007BA4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01CF37B72E818D4D007BA4E5 /* Project object */;
+}
